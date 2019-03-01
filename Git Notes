@@ -25,6 +25,7 @@ touch .log.txt (to not include)
 ----Atom--------
 go into gitignore and type log.txt (all you have to do it type the file name)
 you can also add entire directories
+as you can see.
 
 #####Git Bash#############
 Right click on folder that contains your code. "Git Bash"
