@@ -14,6 +14,8 @@ git commit   //Takes everything in the staging area to the Repository
 git push //takes local Repository and puts it on github
 git pull  //Pull latest version
 git clone //copies Repository to machine
+git branch <name of branch> //to create a branch
+git checkout <name of branch>  //to switch to another branch
 
 git config --global user.name 'your name'
 git config --global user.email 'your email'
@@ -32,6 +34,7 @@ Right click on folder that contains your code. "Git Bash"
 touch index.html  //This creates a html file
 touch app.js  // This creates js
 -------Open up Atom---------(add this folder as project)
+
 NOW, you want to initalize this folder as a Git Repository
 ------------------------------------------------------------
 git init   //This will create a .git folder in your project
@@ -45,3 +48,6 @@ to get out push esc button and pres :wq enter
 BETTER WAY TO commit
 git commit -m 'initial commit'
 ---------------------------------------------
+############Git Branch##########################
+git branch <name of branch> ex git branch login
+git checkout login  //to switch to the branch you created
