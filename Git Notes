@@ -16,7 +16,7 @@ git pull  //Pull latest version
 git clone //copies Repository to machine
 git branch <name of branch> //to create a branch
 git checkout <name of branch>  //to switch to another branch
-
+git merge <file>  //merge branch to master
 git config --global user.name 'your name'
 git config --global user.email 'your email'
 
@@ -51,3 +51,8 @@ git commit -m 'initial commit'
 ############Git Branch##########################
 git branch <name of branch> ex git branch login
 git checkout login  //to switch to the branch you created
+##############Git Merge#############################
+git merge <file name>
+-----vim editor-------
+press I, then enter commit message
+press esc :wq enter
