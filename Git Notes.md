@@ -1,12 +1,12 @@
-####Git Notes#####
+#### Git Notes #####
 You will have a Repository on your machine, then you will "push" it to the Repository
 Make a "commit" to update your code, can always revrt back when needed.
 Putting into "staging" are before commiting.
 
-####Basic Commands######
+#### Basic Commands ######
 git init   //initalize a local Repository (go to your folder where you have your code with your terminal)
 git add <file>  //Add files to index
-git add *.<file type> ex html  //this will add every html file in the folder to the Repository
+git add . <file type> ex html  //this will add every html file in the folder to the Repository
 git add . //This adds every file in the folder
 git status  //check what is in the staging area
 git rm --cached<file> //removes file from the staging area
@@ -21,7 +21,7 @@ git merge <file>  //merge branch to master
 git config --global user.name 'your name'
 git config --global user.email 'your email'
 .
-####How to use Git Ignore######### (folder to not include in Repository)
+#### How to use Git Ignore ######### (folder to not include in Repository)
 -----Bash------
 touch .gitignore
 touch .log.txt (to not include)
@@ -30,7 +30,7 @@ go into gitignore and type log.txt (all you have to do it type the file name)
 you can also add entire directories
 as you can see.
 
-#####Git Bash#############
+##### Git Bash #############
 Right click on folder that contains your code. "Git Bash"
 touch index.html  //This creates a html file
 touch app.js  // This creates js
@@ -49,10 +49,10 @@ to get out push esc button and pres :wq enter
 BETTER WAY TO commit
 git commit -m 'initial commit'
 ---------------------------------------------
-############Git Branch##########################
+############ Git Branch ##########################
 git branch <name of branch> ex git branch login
 git checkout login  //to switch to the branch you created
-##############Git Merge#############################
+############## Git Merge #############################
 git merge <file name>
 -----vim editor-------
 press I, then enter commit message
