@@ -49,10 +49,10 @@ to get out push esc button and pres :wq enter
 BETTER WAY TO commit
 git commit -m 'initial commit'
 ---------------------------------------------
-############ Git Branch ##########################
+# Git Branch #
 git branch <name of branch> ex git branch login
 git checkout login  //to switch to the branch you created
-############## Git Merge #############################
+# Git Merge #
 git merge <file name>
 -----vim editor-------
 press I, then enter commit message
